@@ -1,0 +1,20 @@
+version: 3
+
+tasks:
+  basic-test:
+    desc: Run out2json with basic outline
+    dir: cmd/out2json
+    cmds:
+      - go run . < ../../examples/basic-outline.txt | jless
+
+  advanced-test:
+    desc: Run out2json with advanced outline
+    dir: cmd/out2json
+    cmds:
+      - go run . < ../../examples/advanced-outline.txt | jless
+
+  install:
+    desc: Build and install out2json
+    dir: cmd/out2json
+    cmds:
+      - go install .

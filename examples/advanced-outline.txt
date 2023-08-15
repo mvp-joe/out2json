@@ -1,0 +1,47 @@
+Data Structures & Algorithms
+- Arrays
+- Linked Lists
+- Stacks
+- Queues
+    - Queue
+    - Circular Queue
+    - Priority Queue
+    - Double-ended Queue (Deque)
+    - Linked List Implementation
+    - Array Implementation
+    - Applications: Queues have various real-life applications such as scheduling processes in operating systems, handling network packets in routers or servers, simulating real-world scenarios like waiting lines at banks or supermarkets, etc.
+- Trees (Binary trees, AVL trees, B-trees)
+    - Binary trees
+    - AVL trees
+        - AVL trees are a type of self-balancing binary search tree.
+        - They were named after their inventors, Adelson-Velskii and Landis.
+        - The balance factor of each node in an AVL tree is either -1, 0, or 1.
+        - AVL trees maintain their balance by performing rotations when necessary.
+        - Rotations can be either left or right rotations, depending on the situation.
+        - When a node is inserted or deleted from an AVL tree, it may cause the tree to become unbalanced.
+        - If the balance factor of any node in an AVL tree is greater than 1 or less than -1, it needs to be rebalanced using rotations.
+        - Rebalancing an AVL tree ensures that the height difference between its left and right subtrees is at most 1.
+        - The time complexity for searching, inserting, and deleting nodes in an AVL tree is O(log n), where n is the number of nodes in the tree.
+    - B-trees
+    - Red-black tree
+    - Heap data structure
+    - Trie
+    - Segment Tree
+    - Fenwick Tree (Binary Indexed Tree)
+- Graphs (Directed graphs, Undirected graphs)
+- Hash Tables (Hash maps, Hash sets)
+- Heaps (Min heaps, Max heaps)
+    - A heap is a specialized tree-based data structure that satisfies the heap property.
+    - In a min heap, for any given node, the value of that node is less than or equal to the values of its children.
+    - In a max heap, for any given node, the value of that node is greater than or equal to the values of its children.
+    - Heaps are commonly used to implement priority queues, where elements with higher priority are dequeued first.
+    - The most common operations on heaps include insertion and deletion (also known as enqueue and dequeue).
+    - Insertion in a heap involves adding an element at the next available position and then "bubbling up" the element until it satisfies the heap property.
+    - Deletion in a heap involves removing either the root element (for min heaps) or maximum element (for max heaps), replacing it with the last leaf node, and then "bubbling down" this new root until it satisfies the heap property again.
+    - Heaps can be efficiently implemented using arrays or linked lists.
+    - Heap sort is an efficient sorting algorithm based on using a max (or min) heap data structure to build an ordered list from an unordered input list.
+- Sorting Algorithms (Bubble sort, Insertion sort, Selection sort, Quick sort, Merge sort)
+- Searching Algorithms (Linear search, Binary search)
+- Dynamic Programming
+- Greedy Algorithms
+- Backtracking
